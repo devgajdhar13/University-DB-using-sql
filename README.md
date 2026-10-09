@@ -129,11 +129,11 @@ The screenshots below use **relative paths** inside the repository, so GitHub ca
 
 <table>
   <tr>
-    <td width="50%"><strong>1. Create database and tables</strong><br><img src="ss/01.create database tables.png" alt="Create the UniversityDB database and tables" width="100%"></td>
-    <td width="50%"><strong>2. Read table data</strong><br><img src="ss/02-read-table-data.png" alt="Select and display table records" width="100%"></td>
+    <td width="50%"><strong>1. Create database and tables</strong><br><img src="ss/1.create.png" alt="Create the UniversityDB database and tables" width="100%"></td>
+    <td width="50%"><strong>1. Read table data</strong><br><img src="ss/1.read.png" alt="Select and display table records" width="100%"></td>
   </tr>
   <tr>
-    <td colspan="2"><strong>3. Update and delete records</strong><br><img src="ss/03-update-delete-records.png" alt="Update and delete sample university records" width="100%"></td>
+    <td colspan="2"><strong>1. Update and delete records</strong><br><img src="ss/1.update & delete.png" alt="Update and delete sample university records" width="100%"></td>
   </tr>
 </table>
 
@@ -141,16 +141,16 @@ The screenshots below use **relative paths** inside the repository, so GitHub ca
 
 <table>
   <tr>
-    <td width="50%"><strong>4. Students enrolled after 2022</strong><br><img src="ss/04-students-enrolled-after-2022.png" alt="Filter students by enrollment year" width="100%"></td>
-    <td width="50%"><strong>5. Mathematics department courses (limit 5)</strong><br><img src="ss/05-mathematics-department-courses.png" alt="Find courses in Mathematics department" width="100%"></td>
+    <td width="50%"><strong>2. Students enrolled after 2022</strong><br><img src="ss/2.Students enrolled after 2022 .png" alt="Filter students by enrollment year" width="100%"></td>
+    <td width="50%"><strong>3. Mathematics department courses (limit 5)</strong><br><img src="ss/3.Courses of Mathematics department (limit 5).png" alt="Find courses in Mathematics department" width="100%"></td>
   </tr>
   <tr>
-    <td><strong>6. Courses with more than five students</strong><br><img src="ss/06-courses-with-more-than-five-students.png" alt="Group enrollments and filter with HAVING" width="100%"></td>
-    <td><strong>7. Students enrolled in both courses</strong><br><img src="ss/07-students-in-both-courses.png" alt="Find students enrolled in both named courses" width="100%"></td>
+    <td><strong>4. Courses with more than five students</strong><br><img src="ss/4.Students per course, only courses with more than 5 students.png" alt="Group enrollments and filter with HAVING" width="100%"></td>
+    <td><strong>5. Students enrolled in both courses</strong><br><img src="ss/5.Students enrolled in BOTH courses.png" alt="Find students enrolled in both named courses" width="100%"></td>
   </tr>
   <tr>
-    <td><strong>8. Students enrolled in either course</strong><br><img src="ss/08-students-in-either-course.png" alt="Find students enrolled in either named course" width="100%"></td>
-    <td><strong>9. Average course credits</strong><br><img src="ss/09-average-course-credits.png" alt="Calculate average credits across courses" width="100%"></td>
+    <td><strong>6. Students enrolled in either course</strong><br><img src="ss/6.Students enrolled in EITHER course.png" alt="Find students enrolled in either named course" width="100%"></td>
+    <td><strong>7. Average course credits</strong><br><img src="ss/7.Average credits of all courses.png" alt="Calculate average credits across courses" width="100%"></td>
   </tr>
 </table>
 
@@ -158,15 +158,15 @@ The screenshots below use **relative paths** inside the repository, so GitHub ca
 
 <table>
   <tr>
-    <td width="50%"><strong>10. Maximum Computer Science instructor salary</strong><br><img src="ss/10-max-cs-instructor-salary.png" alt="Find the maximum salary in Computer Science" width="100%"></td>
-    <td width="50%"><strong>11. Students enrolled in each department</strong><br><img src="ss/11-students-per-department.png" alt="Count students by department" width="100%"></td>
+    <td width="50%"><strong>8. Maximum Computer Science instructor salary</strong><br><img src="ss/8.Max salary of Computer Science instructors.png" alt="Find the maximum salary in Computer Science" width="100%"></td>
+    <td width="50%"><strong>9. Students enrolled in each department</strong><br><img src="ss/9.Students enrolled in each department.png" alt="Count students by department" width="100%"></td>
   </tr>
   <tr>
-    <td><strong>12. INNER JOIN</strong><br><img src="ss/12-inner-join.png" alt="Join students with their enrolled courses" width="100%"></td>
-    <td><strong>13. LEFT JOIN</strong><br><img src="ss/13-left-join.png" alt="Use left joins to retrieve students and course names" width="100%"></td>
+    <td><strong>10. INNER JOIN</strong><br><img src="ss/10.INNER JOIN .png" alt="Join students with their enrolled courses" width="100%"></td>
+    <td><strong>11. LEFT JOIN</strong><br><img src="ss/11.LEFT JOIN.png" alt="Use left joins to retrieve students and course names" width="100%"></td>
   </tr>
   <tr>
-    <td colspan="2"><strong>14. Subquery</strong><br><img src="ss/14-subquery.png" alt="Subquery that filters courses by enrollment count" width="100%"></td>
+    <td colspan="2"><strong>12. Subquery</strong><br><img src="ss/12.Subquery.png" alt="Subquery that filters courses by enrollment count" width="100%"></td>
   </tr>
 </table>
 
@@ -174,12 +174,12 @@ The screenshots below use **relative paths** inside the repository, so GitHub ca
 
 <table>
   <tr>
-    <td width="50%"><strong>15. Extract enrollment year</strong><br><img src="ss/15-extract-enrollment-year.png" alt="Extract the year from EnrollmentDate" width="100%"></td>
-    <td width="50%"><strong>16. Concatenate instructor names</strong><br><img src="ss/16-concatenate-instructor-name.png" alt="Combine first and last name with CONCAT" width="100%"></td>
+    <td width="50%"><strong>13. Extract enrollment year</strong><br><img src="ss/13.Extract year from EnrollmentDate.png" alt="Extract the year from EnrollmentDate" width="100%"></td>
+    <td width="50%"><strong>14. Concatenate instructor names</strong><br><img src="ss/14.Concatenate instructor first and last name.png" alt="Combine first and last name with CONCAT" width="100%"></td>
   </tr>
   <tr>
-    <td><strong>17. Running total of enrollments</strong><br><img src="ss/17-running-total-enrollments.png" alt="Calculate cumulative student enrollments with a window function" width="100%"></td>
-    <td><strong>18. Senior / Junior labels</strong><br><img src="ss/18-senior-junior-labels.png" alt="Classify students using CASE and TIMESTAMPDIFF" width="100%"></td>
+    <td><strong>15. Running total of enrollments</strong><br><img src="ss/15.Running total of students enrolled in courses.png" alt="Calculate cumulative student enrollments with a window function" width="100%"></td>
+    <td><strong>16. Senior / Junior labels</strong><br><img src="ss/16.Label students Senior  Junior.png" alt="Classify students using CASE and TIMESTAMPDIFF" width="100%"></td>
   </tr>
 </table>
 
